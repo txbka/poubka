@@ -20,6 +20,7 @@
 		F07D5C32289B294C00902EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07D5C35289B294C00902EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F07D5C37289B294C00902EDE /* poubka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = poubka.entitlements; sourceTree = "<group>"; };
+		F07D5C3D289B2D5600902EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		F07D5C2D289B294900902EDE /* poubka */ = {
 			isa = PBXGroup;
 			children = (
+				F07D5C3D289B2D5600902EDE /* Info.plist */,
 				F07D5C2E289B294900902EDE /* AppDelegate.swift */,
 				F07D5C30289B294900902EDE /* ViewController.swift */,
 				F07D5C32289B294C00902EDE /* Assets.xcassets */,
@@ -275,6 +277,7 @@
 				DEVELOPMENT_TEAM = RW6W87QFA7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = poubka/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -302,6 +305,7 @@
 				DEVELOPMENT_TEAM = RW6W87QFA7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = poubka/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
